@@ -20,7 +20,7 @@
 if(!empty($message))
 {
 	echo '<p align="center" style="font-size:30px; font-weight:bold;"> '.$message.' </p>';
-	
+
 	}
 
 
@@ -30,33 +30,33 @@ if(!empty($message))
     <div class="card card-login mx-auto mt-5">
       <div class="card-header">Sign Up</div>
       <div class="card-body">
- 
+
 <form action="/index.php/main/registration" method="post">
  <div class="form-group">
- <label for="exampleInputEmail1">Fname:</label>  <input class="form-control" type="text" name="fname" />  
+ <label for="exampleInputEmail1">First name:</label>  <input class="form-control" type="text" name="fname" />
  </div>
  <div class="form-group">
- <label for="exampleInputEmail1">Lname:</label>  <input class="form-control" type="text" name="lname" /> 
+ <label for="exampleInputEmail1">Last name:</label>  <input class="form-control" type="text" name="lname" />
  </div>
  <div class="form-group">
-<label for="exampleInputEmail1"> User Name:</label>  <input class="form-control" type="text" name="username" />  
+<label for="exampleInputEmail1"> Username:</label>  <input class="form-control" type="text" name="username" />  
  </div>
 <div class="form-group">
-<label for="exampleInputEmail1"> Password:</label>  <input class="form-control" type="password" name="pass" />  
+<label for="exampleInputEmail1"> Password:</label>  <input class="form-control" type="password" name="pass" />
 </div>
  <div class="form-group">
- <label for="exampleInputEmail1">Confirm Password:</label>  <input class="form-control" type="password" name="confpass" />  
+ <label for="exampleInputEmail1">Confirm Password:</label>  <input class="form-control" type="password" name="confpass" />
  </div>
- <input type="submit" style="background-color:#d46262; border-color:#d46262;" class="btn btn-primary btn-block" value="Sign Up" />  
+ <input type="submit" style="background-color:#d46262; border-color:#d46262;" class="btn btn-primary btn-block" value="Sign Up" />
 
- 
+
 
 
 </form>
 </div>
 </div>
 </div>
- 
+
 
 
 
